@@ -19,7 +19,7 @@ func Build() error {
   return sh.RunV("go", "build", "./...")
 }
 
-// nit the hell outta my code
+// Nit the hell outta my code
 func Lint() error {
   mg.Deps(EnsureGoLint)
 

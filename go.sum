@@ -1,5 +1,7 @@
 github.com/carolynvs/magex v0.3.1-0.20210121165806-e2c237fbee9e h1:gv4ulk8kcOpz0Q7uccu8zFemXlK7iNgYBFo2ZHsHbcc=
 github.com/carolynvs/magex v0.3.1-0.20210121165806-e2c237fbee9e/go.mod h1:2UQe/9ipQIsGcvwavGLv/c2IEJG32zu0iafZhUlk/Z4=
+github.com/carolynvs/magex v0.4.0 h1:BEcWFju5JNtfHcyvoENZzzPObpv0IHZnhxkOT4hKv4M=
+github.com/carolynvs/magex v0.4.0/go.mod h1:2UQe/9ipQIsGcvwavGLv/c2IEJG32zu0iafZhUlk/Z4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/magefile/mage v1.11.0 h1:C/55Ywp9BpgVVclD3lRnSYCwXTYxmSppIgLeDYlNuls=
 github.com/magefile/mage v1.11.0/go.mod h1:z5UZb/iS3GoOSn0JgWuiw7dxlurVYTu+/jHXqQg881A=
