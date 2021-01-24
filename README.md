@@ -1,6 +1,6 @@
 # Magefile Example
 
-https://carolynvanslyck.com/blog/2021/01/mage-is-the-new-make/
+https://carolynvanslyck.com/blog/2021/01/mage-is-my-favorite-make/
 
 ## Try it out
 
