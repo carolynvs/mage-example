@@ -3,9 +3,9 @@
 package main
 
 import (
-  "github.com/carolynvs/magex/pkg"
-  "github.com/magefile/mage/mg"
-  "github.com/magefile/mage/sh"
+	"github.com/carolynvs/magex/pkg"
+	"github.com/magefile/mage/mg"
+	"github.com/magefile/mage/sh"
 )
 
 // Default target to run when none is specified
@@ -14,24 +14,24 @@ var Default = Build
 
 // Compile and lint the cli
 func Build() error {
-  mg.Deps(Lint)
+	mg.Deps(Lint)
 
-  return sh.RunV("go", "build", "./...")
+	return sh.RunV("go", "build", "./...")
 }
 
 // Nit the hell outta my code
 func Lint() error {
-  mg.Deps(EnsureGoLint)
+	mg.Deps(EnsureGoLint)
 
-  return sh.RunV("golint", "./...")
+	return sh.RunV("golint", "./...")
 }
 
 // Install golint if needed
 func EnsureGoLint() error {
-  return pkg.EnsurePackage("golang.org/x/lint/golint", "")
+	return pkg.EnsurePackage("golang.org/x/lint/golint", "")
 }
 
 // Install Mage if necessary
 func EnsureMage() error {
-  return pkg.EnsureMage("v1.11.0")
+	return pkg.EnsureMage("v1.11.0")
 }
